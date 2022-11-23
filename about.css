@@ -131,6 +131,11 @@
   font-size: 15px;
 }
 
+footer {
+  background-color: #272a31;
+  color: #d3d3d3;
+}
+
 @media (max-width: 767px) {
   .past-programs-list {
     flex-direction: column;

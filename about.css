@@ -1,0 +1,146 @@
+.secondary-text-about {
+  background-color: #d3d3d3;
+  width: 70%;
+  max-height: 20%;
+  overflow-y: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  text-align: center;
+  padding: 1.5%;
+  border-radius: 10px;
+  color: #272a31;
+}
+
+/* Hide scroll bar for Chrome and Safari */
+
+.secondary-text-about::-webkit-scrollbar {
+  display: none;
+}
+
+.contact-us {
+  text-align: center;
+  color: #d3d3d3;
+}
+
+.contact-us a {
+  color: #d3d3d3;
+}
+
+.logo-section {
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2em;
+  margin-top: 4em;
+}
+
+.logo-section p {
+  width: 50%;
+  text-align: center;
+}
+
+.logo-section img {
+  width: 40%;
+}
+
+.full-hr {
+  border-width: 0;
+  height: 1px;
+  background-color: #272a31;
+  width: 100%;
+  opacity: 0.6;
+  margin: 3% 0;
+}
+
+.past-programs {
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2em;
+  margin-top: 2em;
+  margin-bottom: 4em;
+  height: auto;
+  text-align: center;
+}
+
+.past-programs p {
+  width: 70%;
+}
+
+.past-programs-list {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  flex-shrink: 1;
+  width: 80%;
+  column-gap: 1em;
+}
+
+.program1 {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-image: linear-gradient(#ec524275, #ec5342cb), url(images/activity1.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+  color: #272a31;
+  flex-shrink: 1;
+  padding: 10% 5%;
+}
+
+.program1:hover {
+  background-image: linear-gradient(#ec5342a6, #ec5342cb), url(images/activity1.jpg);
+}
+
+.program1 h2 {
+  color: #d3d3d3;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.program1 h5 {
+  color: #d3d3d3;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.program2 {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-image: linear-gradient(#ec524275, #ec5342cb), url(images/activity2.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+  flex-shrink: 1;
+  padding: 10% 5%;
+}
+
+.program2:hover {
+  background-image: linear-gradient(#ec5342a6, #ec5342cb), url(images/activity2.jpg);
+}
+
+.program2 h2 {
+  color: #d3d3d3;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.program2 h5 {
+  color: #d3d3d3;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+footer {
+  background-color: #272a31;
+  color: #d3d3d3;
+}
+
+@media (max-width: 767px) {
+  .past-programs-list {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 1em;
+  }
+}

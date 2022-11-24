@@ -85,6 +85,10 @@ Built as Microverse first capstone project
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+Live presentation of the project can be found [here](https://www.loom.com/share/151a84b791384da683db56873ea48a41).
+
+Live demo of the project can be seen [here](https://prangonghose.github.io/Capstone-Project---University-Campus-Hour/).
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
